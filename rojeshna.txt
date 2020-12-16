@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int add(int f,int g,int h,int i,int j)
+{
+    int sum =f+g+h+i+j;
+    return sum;
+}
+
+int divi(int r){
+    
+    int di=r/4;
+    return di;
+}
+
+int main()
+{
+ int a=23;
+ int b=24;
+ int c=20;
+ int d=23;
+ int e=22;
+ int r=add(a,b,c,d,e);
+ cout<<r;
+ cout<<"\n";
+ int re=divi(r);
+ cout<<re;
+}
